@@ -157,6 +157,10 @@ add_executable(vm_command_keyboard_node src/vm_command_keyboard_node.cpp )
 # add_executable(vm_move_function_library src/vm_move_function_library.cpp)
 
 add_executable(vm_utm_odometry_node src/utm_odometry_node.cpp)
+add_executable(vm_tcp_client src/vm_tcp_client.cpp)
+add_executable(client src/client.cpp)
+# add_executable(server src/server.cpp)
+
 # add_executable(vm_camera_process_node src/vm_camera_process_node.cpp)
 
 
@@ -175,6 +179,11 @@ add_dependencies(vm_command_keyboard_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${
 # add_dependencies(vm_move_function_library ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 add_dependencies(vm_utm_odometry_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+add_dependencies(vm_tcp_client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
 # add_dependencies(vm_camera_process_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 #add_dependencies(dji_osdk_ros ${catkin_EXPORTED_TARGETS})
 
@@ -182,6 +191,15 @@ add_dependencies(vm_utm_odometry_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catk
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+# target_link_libraries(server
+#    ${catkin_LIBRARIES}
+# )
+target_link_libraries(client
+   ${catkin_LIBRARIES}
+)
+target_link_libraries(vm_tcp_client
+   ${catkin_LIBRARIES}
+)
 target_link_libraries(vm_basic_command_node
    ${catkin_LIBRARIES}
 )

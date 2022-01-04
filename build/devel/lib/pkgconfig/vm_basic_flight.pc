@@ -1,0 +1,8 @@
+prefix=/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/devel
+
+Name: vm_basic_flight
+Description: Description of vm_basic_flight
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/devel/lib -lvm_basic_flight
+Requires: actionlib geometry_msgs roscpp sensor_msgs tf2_geometry_msgs visualization_msgs std_msgs nav_msgs gps_common tf2_geometry_msgs ar_track_alvar_msgs

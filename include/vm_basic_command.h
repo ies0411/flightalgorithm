@@ -16,6 +16,7 @@
 
 #include "vm_camera_process.h"
 #include "vm_move_function.h"
+// #include "vm_tcp_client.h"
 
 const std::string error_msg = R"(
    Command is not correct!!!!

@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"vm_basic_flight\\\" -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/devel/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/gps_umd/gps_common/include -I/home/dji/catkin_ws/devel/include -I/home/dji/catkin_ws/src/Onboard-SDK-ROS/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -std=c++11 -o CMakeFiles/vm_utm_odometry_node.dir/src/utm_odometry_node.cpp.o -c /home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/utm_odometry_node.cpp",
+  "file": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/utm_odometry_node.cpp"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"vm_basic_flight\\\" -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/devel/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/gps_umd/gps_common/include -I/home/dji/catkin_ws/devel/include -I/home/dji/catkin_ws/src/Onboard-SDK-ROS/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -std=c++11 -o CMakeFiles/vm_command_keyboard_node.dir/src/vm_command_keyboard_node.cpp.o -c /home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/vm_command_keyboard_node.cpp",
+  "file": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/vm_command_keyboard_node.cpp"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"vm_basic_flight\\\" -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/devel/include -I/home/dji/catkin_ws/src/vm_autonomous_drone/src/gps_umd/gps_common/include -I/home/dji/catkin_ws/devel/include -I/home/dji/catkin_ws/src/Onboard-SDK-ROS/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -std=c++11 -o CMakeFiles/vm_basic_command_node.dir/src/vm_basic_command_node.cpp.o -c /home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/vm_basic_command_node.cpp",
+  "file": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/src/vm_basic_command_node.cpp"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/dji/catkin_ws/src/vm_autonomous_drone/src/vm_basic_flight/build/gtest/gtest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+}
+]

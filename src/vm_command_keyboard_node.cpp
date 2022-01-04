@@ -22,16 +22,16 @@ int main(int argc, char *argv[]) {
     ros::NodeHandle nh;
 
     ros::Publisher keyboard_pub = nh.advertise<std_msgs::String>("keyboard_command", 1);
-
+    ROS_INFO("keyboard node");
     while (ros::ok()) {
         /* code for loop body */
         std_msgs::String msg;
         getline(std::cin, msg.data);
-        if (msg.data[0] == '\x03')
-            ros::spinOnce();
+        if (msg.data[0] == '\x03') {
+            return 0;
+        }
+        ros::spinOnce();
         keyboard_pub.publish(msg);
     }
     return 0;
 }
-
-

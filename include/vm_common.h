@@ -36,6 +36,8 @@
 #include <message_filters/subscriber.h>
 #include <message_filters/time_synchronizer.h>
 #include <nav_msgs/Odometry.h>
+#include <netdb.h>
+#include <netinet/in.h>
 #include <ros/ros.h>
 #include <sensor_msgs/BatteryState.h>
 #include <sensor_msgs/Image.h>
@@ -48,6 +50,10 @@
 #include <std_msgs/UInt8.h>
 #include <std_srvs/SetBool.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
 #include <termio.h>
 #include <tf/tf.h>
 #include <unistd.h>
@@ -70,6 +76,7 @@
 #include <utility>
 #include <vector>
 
+#include "std_msgs/String.h"
 #include "vm_pid_control.h"
 
 #define ZERO_INT 0

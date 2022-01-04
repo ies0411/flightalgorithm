@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: vm_basic_flight
+Description: Description of vm_basic_flight
+Version: 0.0.1
+Cflags: 
+Libs: -L/usr/local/lib -lvm_basic_flight
+Requires: actionlib geometry_msgs roscpp sensor_msgs tf2_geometry_msgs visualization_msgs std_msgs nav_msgs gps_common tf2_geometry_msgs ar_track_alvar_msgs
